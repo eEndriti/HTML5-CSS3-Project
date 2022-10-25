@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <img src="assets/images/logo.jpg" alt="logo">
+            <a href="#" class="mobile-menu-icon">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+            <ul>
+                <li><a href="/index.html">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#cars">CARS</a></li>
+                <li><a href="#services">SERVICE</a></li>
+                <li><a href="#">TEAM</a></li>
+                <li><a href="#blog">BLOG</a></li>
+                <li class="pages"><a href="#" >PAGES</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Buy Cars</a></li>
+                        <li><a href="#">Sell Cars</a></li>
+                    </ul>
+                </li>
+                <li><a href="/contact.html" class="active">CONTACT</a></li>
+                
+            </ul>
+            
+        </nav>   
+            <div class="content">
+                <br><br>
+                <h1>Contact</h3>
+                <p>Home <i class="fa-solid fa-arrow-right"></i> Contact</p>
+            </div>
+    </header>
+
+    <br>
+
+    <section id="contactSection">
+        <form class="contact-form" action="/receivedOrder.html" method="get">
+            <input type="email" placeholder="Type Your Email" required>
+            <input type="tel" placeholder="Type Your Phone Number">
+            <br>
+            <textarea placeholder="Type Your Message" required cols="80" rows="5"></textarea>
+            <br>
+            <button class="contact-button">Submit</button>
+        </form>
+    </section>
+
+</body>
+</html>

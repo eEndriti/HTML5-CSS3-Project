@@ -4,7 +4,7 @@ body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    overflow: none;
+    overflow-x: hidden;
 }
 *{
     font-family: 'Poppins', sans-serif;
@@ -179,6 +179,20 @@ header form button{
     text-align: center;
     padding: 5px 10px;
 }
+
+.responsive-nav{
+    background-color: black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.responsive-links{
+    margin: 0px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
 @media screen and (max-width:652px){
    
     nav ul{
@@ -248,10 +262,6 @@ header form button{
         display: flex;
         
     }
-
-
-    /* CONTACT RESPONSIVE CODE */
-
 
 }
 @media screen and (max-width:400px) {

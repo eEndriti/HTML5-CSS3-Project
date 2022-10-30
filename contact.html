@@ -12,29 +12,29 @@
 <body>
 
     <header>
-        <nav>
+        <nav class="nav">
             <img src="assets/images/logo.jpg" alt="logo">
-            <a href="#" class="mobile-menu-icon">
+            <div id="hamburger" class="mobile-menu-icon">
                 <i class="fa-solid fa-bars"></i>
-            </a>
-            <ul>
+            </div>
+            <ul class="nav-links">
                 <li><a href="/index.html">HOME</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#cars">CARS</a></li>
-                <li><a href="#services">SERVICE</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CARS</a></li>
+                <li><a href="#">SERVICE</a></li>
                 <li><a href="#">TEAM</a></li>
-                <li><a href="#blog">BLOG</a></li>
+                <li><a href="#">BLOG</a></li>
                 <li class="pages"><a href="#" >PAGES</a>
                     <ul class="dropdown">
                         <li><a href="#">Buy Cars</a></li>
                         <li><a href="#">Sell Cars</a></li>
                     </ul>
                 </li>
-                <li><a href="/contact.html" class="active">CONTACT</a></li>
+                <li><a href="contact.html" class="active">CONTACT</a></li>
                 
             </ul>
             
-        </nav>   
+        </nav>
             <div class="content">
                 <br><br>
                 <h1>Contact</h3>
@@ -54,6 +54,8 @@
             <button class="contact-button">Submit</button>
         </form>
     </section>
+
+    <script src="/hamburger-click.js"></script>
 
 </body>
 </html>
